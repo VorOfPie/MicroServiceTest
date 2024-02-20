@@ -24,7 +24,6 @@ function assertCurl() {
     if [ "$httpCode" = "200" ]
     then
       echo "Test OK (HTTP Code: $httpCode)"
-
     else
       echo "Test OK (HTTP Code: $httpCode, $RESPONSE)"
     fi
